@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image: url(/images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   opacity: 0.6;
+}
