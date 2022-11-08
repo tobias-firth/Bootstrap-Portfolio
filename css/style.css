@@ -2,13 +2,61 @@ body {
     background-color: #707070;
 }
 
+/* CSS for the header */
+header {
+    width:100%;
+    z-index: 1000000000;
+    background-color: #707070;
+    height:70px;
+}
+
+
+/* CSS for the NavBar */
+
+.bg-light { 
+    background-color: #707070 !important;
+}
+
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+    margin: 10px;
+    width:150px;
+    border-radius: 20px;
+    border: 3px solid darkviolet;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    font-size: larger;
+}
+
+.navbar-nav > li:hover {
+    background-color: darkviolet;
+    cursor: pointer;
+}
+
+
+
+
+
+/* CSS for the Hero Section */
+
 .jumbotron {
     background-image: url(/images/hero-bg-2.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 400px;
     margin:3%;
-    border-radius: 15px;
+    border-radius: 20px;
+    border: 3px solid darkviolet;
 }
 
 
@@ -17,17 +65,87 @@ body {
     color: darkviolet;
 }
 
-header {
-    width:100%;
-    z-index: 1000000000;
-    background-color: #707070;
-    height:70px;
+
+/* CSS for the work section */
+#work {
+    margin: 3%;
 }
+
+.card {
+    align-items: center;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background-color: transparent;
+    border:none;    
+}
+
+.card-img-top {
+    border:3px solid darkviolet;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+
+.card:hover img{
+    box-shadow: 5px 5px 5px darkviolet;
+    -webkit-box-shadow: 5px 5px 5px darkviolet;
+    -moz-box-shadow: 5px 5px 5px darkviolet;
+    cursor: pointer;
+}
+
+.card-img-overlay {
+   margin-top:220px
+}
+
+a {
+    color:darkviolet;
+}
+
+/* CSS for the About Me section */
+
+#about {
+    padding:15px;
+}
+
+.about-column {
+    height:400px;
+    padding:20px;
+    border:3px solid darkviolet;
+    border-radius: 20px;
+}
+
+.list-group .list-group-item {
+    background-color: transparent;
+    list-style:circle;
+}
+
+/* CSS for the footer */
 
 footer {
     height: 150px;
+    margin:3%;
 }
 
-.bg-light { 
-    background-color: #707070 !important;
+nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.nav >li {
+    margin: 10px;
+    width:150px;
+    border-radius: 20px;
+    border: 3px solid darkviolet;
+    text-align: center;
+}
+
+.nav .nav-link {
+    color:black;
+}
+
+.nav >li:hover {
+    background-color: darkviolet;
+    cursor: pointer;
 }
